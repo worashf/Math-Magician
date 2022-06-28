@@ -1,0 +1,84 @@
+:root {
+  --screen-color: rgb(112, 104, 104);
+  --answer-color: white;
+  --app-color: #f2f2f2;
+  --btn-orange: #e49504;
+  --gray-btn: rgb(224, 218, 218);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 5rem auto;
+  width: 40%;
+}
+
+.container {
+  width: 100%;
+  background-color: var(--app-color);
+}
+
+.answer-screen,
+.answer {
+  width: 100%;
+  height: 4rem;
+  background-color: var(--screen-color);
+  color: var(--answer-color);
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.answer:active {
+  border: none;
+}
+
+.answer::placeholder {
+  padding-left: 96%;
+  color: var(--answer-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 25rem;
+}
+
+.btn {
+  font-size: 1rem;
+  height: 5rem;
+  border: 1px solid rgb(151, 142, 142);
+}
+
+.btn-gray {
+  background-color: var(--gray-btn);
+}
+
+.btn-orange {
+  background-color: var(--btn-orange);
+}
+
+.span-2 {
+  font-size: 1rem;
+  height: 5rem;
+  border: 1px solid rgb(151, 142, 142);
+  grid-column: span 2;
+}
+
+.btn-dot {
+  font-size: 1rem;
+  height: 5rem;
+  border: 1px solid rgb(151, 142, 142);
+}
+
+.btn-equal {
+  font-size: 1rem;
+  height: 5rem;
+  border: 1px solid rgb(151, 142, 142);
+}
