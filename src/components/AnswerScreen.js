@@ -1,20 +1,17 @@
-/*eslint-disable */
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-class AnswerScreen extends Component {
-    constructor(props){
-        super(props)
+const AnswerScreen = ({ next = null, total = null, operation = null }) => (
+  <div className="answer-screen">
+    <input placeholder={next || operation || total || '0'} className="answer" />
 
-    }
-  render() {
-    return (
-      <div className="answer-screen">
-        <input placeholder=  {this.props.next || this.props.operation || this.props.total || '0'} className="answer" /> 
-   
+  </div>
+);
 
+AnswerScreen.propTypes = {
+  next: PropTypes.string.isRequired,
+  total: PropTypes.string.isRequired,
+  operation: PropTypes.string.isRequired,
+};
 
-      </div>
-    );
-  }
-}
 export default AnswerScreen;
