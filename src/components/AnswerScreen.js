@@ -9,9 +9,9 @@ const AnswerScreen = ({ next = null, total = null, operation = null }) => (
 );
 
 AnswerScreen.propTypes = {
-  next: PropTypes.string.isRequired,
   total: PropTypes.string.isRequired,
   operation: PropTypes.string.isRequired,
+  next: PropTypes.string.isRequired,
 };
 
 export default AnswerScreen;
