@@ -12,9 +12,10 @@
   box-sizing: border-box;
 }
 
-.app {
-  margin: 5rem auto;
-  width: 40%;
+.app-container {
+  margin: 1rem;
+  width: 50%;
+  height: 90vh;
 }
 
 .container {
@@ -81,4 +82,23 @@
   font-size: 1rem;
   height: 5rem;
   border: 1px solid rgb(151, 142, 142);
+}
+
+.quotes {
+  background-color: #f2f7f7;
+  height: 90vh;
+  padding: 10%;
+}
+
+.quote1 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: blue;
 }

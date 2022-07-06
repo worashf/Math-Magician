@@ -1,0 +1,22 @@
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+.nav-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #111;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
