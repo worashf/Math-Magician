@@ -20,6 +20,7 @@ const Calculator = () => {
   const container = {
     display: 'flex',
     width: '100%',
+    justifyContent: 'space-between',
   };
   const guide = {
     margin: '1rem',
