@@ -14,7 +14,7 @@
 
 .app-container {
   margin: 1rem;
-  width: 100%;
+  width: 50%;
   height: 90vh;
 }
 
@@ -100,5 +100,5 @@
 .text {
   margin-top: 20px;
   font-size: 1rem;
-  color: red;
+  color: blue;
 }

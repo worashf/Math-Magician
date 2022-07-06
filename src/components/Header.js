@@ -7,9 +7,9 @@ const Header = () => {
     backgroundColor: '#e49504',
     width: '100%',
     margin: '0px auto',
-    padding: ' 1rem 0',
+    padding: ' 1rem 1rem',
     display: 'flex',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
   };
   const navItem = {
     borderLeft: ' 2px solid #111',
