@@ -9,7 +9,7 @@
 - React JS
 - Linters for react and redux
 
-## [Live Demo]
+## [Live Demo](https://idyllic-trifle-96bd4c.netlify.app)
 
 ## Getting Started
 
