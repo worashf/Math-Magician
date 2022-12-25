@@ -1,7 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Math-Magician
-
 > This project is created to demonistrate how to creat react application.
 
 ## Built With
@@ -37,9 +36,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Worash Abocherugn**
 
-- GitHub: [@githubhandle](https://github.com/worashf)
-- Twitter: [@twitterhandle](https://twitter.com/WorashAboche)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/worash-abocherugn-a02219154/)
+- GitHub: [@Worashf](https://github.com/worashf)
+- Twitter: [@WorashAboche](https://twitter.com/WorashAboche)
+- LinkedIn: [Worash Abocherugn](https://www.linkedin.com/in/worash-abocherugn-a02219154/)
 
 ## 🤝 Contributing
 
